@@ -1,0 +1,101 @@
+.logo {
+    position: relative;
+}
+
+.logo h3 {
+    position: absolute;
+    font-size: 2em;
+}
+
+.logo h3:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 3px rgb(244, 102, 26);
+}
+
+.logo h3:nth-child(2) {
+    color: yellow;
+    animation: animate 8s ease-in-out infinite;
+}
+
+@keyframes animate {
+    0%,
+    100% {
+        clip-path: polygon(
+            0 63%,
+            16% 42%,
+            30% 47%,
+            39% 51%,
+            52% 54%,
+            64% 54%,
+            75% 54%,
+            100% 63%,
+            100% 100%,
+            0% 98%,
+            99% 98%,
+            99% 98%,
+            100% 98%,
+            0 100%
+        );
+    }
+
+    50% {
+        clip-path: polygon(
+            0 71%,
+            8% 67%,
+            17% 64%,
+            36% 57%,
+            52% 54%,
+            63% 50%,
+            79% 45%,
+            100% 42%,
+            100% 100%,
+            0% 98%,
+            99% 98%,
+            99% 98%,
+            100% 98%,
+            0 100%
+        );
+    }
+}
+
+.swiper .img1 {
+    position: absolute;
+    z-index: 1;
+}
+
+.swiper .img2 {
+    position: absolute;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.swiper .img3 {
+    position: absolute;
+    z-index: 1;
+    transform: translateX(-50%);
+}
+
+.swiper .img4 {
+    position: absolute;
+    z-index: 1;
+}
+
+.swiper .para {
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    padding-top: 100px;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.swiper .but {
+    position: absolute;
+    left: 70%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.wave {
+    z-index: 0;
+}
