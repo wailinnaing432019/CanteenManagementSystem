@@ -30,7 +30,7 @@
 
 ---
 
-## 🎯 Overview
+##  Overview
 
 **Hungry Haven** is a comprehensive restaurant management system designed to streamline operations across multiple roles. Rather than separate systems for ordering, kitchen management, and admin tasks, everything lives on one platform with proper access control.
 
@@ -50,7 +50,7 @@
 
 ---
 
-## ✨ Features
+##  Features
 
 ### Customer Portal
 
@@ -215,7 +215,7 @@ OrderDetail
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -272,7 +272,7 @@ php artisan serve
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 ### Environment Variables
 
@@ -308,7 +308,7 @@ protected $routeMiddleware = [
 
 ---
 
-## 🔑 Demo Credentials
+##  Demo Credentials
 
 Populated by `StaffSeeder`. Run `php artisan migrate:fresh --seed` to create them.
 
@@ -422,7 +422,7 @@ canteen_pos/
 
 ---
 
-## 🔐 Authentication & Authorization
+##  Authentication & Authorization
 
 ### Two-Guard Architecture
 
@@ -476,7 +476,7 @@ Route::prefix('/purchaser')->middleware(['auth:staff', 'role:purchaser'])->group
 
 ---
 
-## 🧩 Key Technical Highlights
+##  Key Technical Highlights
 
 | Feature | How It's Implemented |
 |---------|---------------------|
